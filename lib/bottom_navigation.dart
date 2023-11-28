@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:escribo/screens/Livros.dart';
-import 'package:escribo/Screens/Favoritos.dart';// Importe a tela de Favoritos
+import 'package:escribo/Screens/Favoritos.dart';
 
 class BottomNavigation extends StatelessWidget {
   final IconData selectedIcon;
@@ -57,7 +57,7 @@ class BottomNavigation extends StatelessWidget {
             style: TextStyle(
               color: iconColor,
               fontWeight: fontWeight,
-              fontFamily: 'Nunito', // Certifique-se de usar o nome da família de fontes definido no pubspec.yaml
+              fontFamily: 'Nunito', //
             ),
           ),
         ],

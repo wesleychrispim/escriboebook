@@ -3,7 +3,7 @@ import 'dart:convert';
 import 'package:flutter/material.dart';
 import 'package:http/http.dart' as http;
 import '../bottom_navigation.dart'; // Importe o menu inferior
-import 'Favoritos.dart'; // Importe a tela de favoritos
+import 'Favoritos.dart';
 
 class LivrosScreen extends StatefulWidget {
   @override
@@ -99,7 +99,7 @@ class _LivrosScreenState extends State<LivrosScreen> {
                                       });
 
                                       if (favoritos[index]) {
-                                        // Se o livro foi favoritado, navegue para a tela de Favoritos
+
                                         Navigator.push(
                                           context,
                                           MaterialPageRoute(
@@ -146,7 +146,7 @@ class _LivrosScreenState extends State<LivrosScreen> {
           BottomNavigation(
             selectedIcon: Icons.book,
             onIconSelected: (icon) {
-              // Lógica para tratar a seleção de ícones, se necessário
+
             },
           ),
         ],

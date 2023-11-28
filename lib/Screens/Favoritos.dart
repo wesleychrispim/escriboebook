@@ -13,7 +13,7 @@ class FavoritosScreen extends StatelessWidget {
     return Scaffold(
       body: Column(
         children: [
-          // Adicione o header aqui
+
           AppHeader(),
 
           Expanded(
@@ -23,17 +23,17 @@ class FavoritosScreen extends StatelessWidget {
                 return ListTile(
                   title: Text(favoritos[index]['title']),
                   subtitle: Text(favoritos[index]['author']),
-                  // Adicione mais informações conforme necessário
+
                 );
               },
             ),
           ),
 
-          // Adicione o menu inferior aqui
+
           BottomNavigation(
-            selectedIcon: Icons.favorite, // Certifique-se de ajustar conforme necessário
+            selectedIcon: Icons.favorite,
             onIconSelected: (icon) {
-              // Lógica para tratar a seleção de ícones, se necessário
+
             },
           ),
         ],

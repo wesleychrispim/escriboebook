@@ -6,12 +6,11 @@ class AppHeader extends StatelessWidget {
   Widget build(BuildContext context) {
     return Container(
       padding: EdgeInsets.all(16.0),
-      color: Colors.white, // Fundo branco
+      color: Colors.white,
       child: Center(
         child: Image.asset(
           'assets/escribo.png',
-          height: 100.0, // Ajuste a altura conforme necessário
-          // Outras propriedades de estilo da imagem podem ser ajustadas aqui
+          height: 100.0,
         ),
       ),
     );

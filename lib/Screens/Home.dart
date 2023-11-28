@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import '../bottom_navigation.dart';
-import '../app_header.dart'; // Importe o novo widget do cabeçalho
+import '../app_header.dart';
 
 class HomeScreen extends StatefulWidget {
   @override
@@ -15,7 +15,7 @@ class _HomeScreenState extends State<HomeScreen> {
     return Scaffold(
       body: Column(
         children: [
-          AppHeader(), // Adicione o cabeçalho aqui
+          AppHeader(),
           Expanded(
             child: Center(
               child: Text(
@@ -40,6 +40,6 @@ class _HomeScreenState extends State<HomeScreen> {
       selectedIcon = icon;
     });
 
-    // Adicione a navegação para outras telas aqui, se necessário
+
   }
 }
